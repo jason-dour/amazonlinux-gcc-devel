@@ -1,7 +1,7 @@
 # jasondour/amazonlinux-gcc-devel - Docker Image for GCC development in Amazon Linux environment.
 FROM amazonlinux:latest
 
-LABEL version="20210215"
+LABEL version="20210914"
 
 # Various utilities and libraries for GCC development.
 RUN yum -y groupinstall development && yum -y install wget python3 python3-devel \
